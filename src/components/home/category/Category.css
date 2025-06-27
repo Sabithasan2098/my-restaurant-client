@@ -1,0 +1,18 @@
+ .custom-swiper .swiper-pagination {
+    position: relative !important;
+    margin-top: 32px;
+    bottom: 0 !important;
+    text-align: center;
+  }
+
+  .mySwiper .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #d1cfcb; 
+  opacity: 0.5;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #007AFF;
+}
