@@ -12,6 +12,26 @@
   opacity: 0.5;
 }
 
+/* medium device*/
+@media (max-width: 768px) {
+  .mySwiper .swiper-pagination-bullet {
+    margin-top: 24px;
+    width: 10px;
+    height: 10px;
+    background-color: #b0aea9;
+  }
+}
+
+/* Very small devices (up to 480px) */
+@media (max-width: 480px) {
+  .mySwiper .swiper-pagination-bullet {
+    margin-top: 0 !important;
+    width: 6px;
+    height: 6px;
+    background-color: #999;
+  }
+}
+
 .mySwiper .swiper-pagination-bullet-active {
   opacity: 1;
   background-color: #007AFF;

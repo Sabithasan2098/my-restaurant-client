@@ -21,12 +21,12 @@ import Image from "next/image";
 
 const Category = () => {
   return (
-    <div className="mb-[137px]">
+    <div className="mb-[10px] md:mb-[137px]">
       <SectionHeading
         first={"From 11:00am to 10:00pm"}
         second={"order online"}
       />
-      <div className="mt-12 max-w-[1320px] mx-auto">
+      <div className="mt-5 md:mt-8 lg:mt-12 max-w-[1320px] mx-auto px-4 md:px-8 lg:px-0">
         <Swiper
           slidesPerView={4}
           spaceBetween={24}
