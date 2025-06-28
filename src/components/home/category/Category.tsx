@@ -45,7 +45,7 @@ const Category = () => {
               className="lg:h-[450px] lg:w-[312]"
             />
             <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[35px]">s</span>alads
+              <span className="text-[30px]">s</span>alads
             </h2>
           </SwiperSlide>
           <SwiperSlide className="relative">
@@ -55,7 +55,7 @@ const Category = () => {
               className="lg:h-[450px] lg:w-[312]"
             />
             <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[35px]">s</span>oup
+              <span className="text-[30px]">s</span>oup
             </h2>
           </SwiperSlide>
           <SwiperSlide className="relative">
@@ -65,7 +65,7 @@ const Category = () => {
               className="lg:h-[450px] lg:w-[312]"
             />
             <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[35px]">p</span>izza
+              <span className="text-[30px]">p</span>izza
             </h2>
           </SwiperSlide>
           <SwiperSlide className="relative">
@@ -75,7 +75,7 @@ const Category = () => {
               className="lg:h-[450px] lg:w-[312]"
             />
             <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[35px]">d</span>essert
+              <span className="text-[30px]">d</span>essert
             </h2>
           </SwiperSlide>
           <SwiperSlide className="relative">
@@ -85,7 +85,7 @@ const Category = () => {
               className="lg:h-[450px] lg:w-[312]"
             />
             <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[35px]">d</span>rink
+              <span className="text-[30px]">d</span>rink
             </h2>
           </SwiperSlide>
         </Swiper>
