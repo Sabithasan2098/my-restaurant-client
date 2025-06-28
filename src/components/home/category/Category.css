@@ -25,14 +25,30 @@
 /* Very small devices (up to 480px) */
 @media (max-width: 480px) {
   .mySwiper .swiper-pagination-bullet {
-    margin-top: 0 !important;
+    position: absolute;
+    bottom: 10px;
     width: 6px;
     height: 6px;
     background-color: #999;
+    display: flex;
+    justify-content: center;
   }
 }
 
 .mySwiper .swiper-pagination-bullet-active {
   opacity: 1;
   background-color: #007AFF;
+}
+
+.category-text {
+color: #FFF;
+font-family: Cinzel;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+color: white;
+text-shadow: 2px 2px 4px #000000; /* কালো ছায়া */
+letter-spacing: 2px;
 }

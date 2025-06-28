@@ -21,7 +21,7 @@ import Image from "next/image";
 
 const Category = () => {
   return (
-    <div className="mb-[10px] md:mb-[137px]">
+    <div className="mb-[25px] md:mb-[50px] lg:mb-[90px]">
       <SectionHeading
         first={"From 11:00am to 10:00pm"}
         second={"order online"}
@@ -37,40 +37,55 @@ const Category = () => {
           modules={[FreeMode, Pagination]}
           className="mySwiper custom-swiper"
         >
-          <SwiperSlide>
+          <SwiperSlide className="relative">
             <Image
               src={img1}
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
+              <span className="text-[35px]">s</span>alads
+            </h2>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="relative">
             <Image
               src={img2}
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
+              <span className="text-[35px]">s</span>oup
+            </h2>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="relative">
             <Image
               src={img3}
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
+              <span className="text-[35px]">p</span>izza
+            </h2>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="relative">
             <Image
               src={img4}
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
+              <span className="text-[35px]">d</span>essert
+            </h2>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="relative">
             <Image
               src={img5}
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
+              <span className="text-[35px]">d</span>rink
+            </h2>
           </SwiperSlide>
         </Swiper>
       </div>
