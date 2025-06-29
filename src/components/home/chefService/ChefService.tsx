@@ -15,9 +15,8 @@ const ChefService = () => {
         className="h-[572px] object-cover"
       />
       <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-white py-[96px] px-[167px] w-[1096px]">
-        <h1 className="text-[38px] font-normal uppercase font text-center">
-          <span className="text-[45px]">b</span>istro{" "}
-          <span className="text-[45px]">b</span>oss
+        <h1 className="text-[45px] font-normal text text-center">
+          Bistro Boss
         </h1>
         <p className="font-normal text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.

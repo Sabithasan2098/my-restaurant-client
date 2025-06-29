@@ -23,7 +23,7 @@ const CheckItOutMenuCard: React.FC<TCard> = ({ img, name, recipe, price }) => {
             ${price}
           </p>
         </div>
-        <p className="font-normal text-[16px] paragraph">{recipe}</p>
+        <p className="font-normal text-[16px]">{recipe}</p>
       </div>
     </div>
   );

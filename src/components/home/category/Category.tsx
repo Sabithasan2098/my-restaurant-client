@@ -44,8 +44,8 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[30px]">s</span>alads
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+              Salads
             </h2>
           </SwiperSlide>
           <SwiperSlide className="relative">
@@ -54,8 +54,8 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[30px]">s</span>oup
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+              Soup
             </h2>
           </SwiperSlide>
           <SwiperSlide className="relative">
@@ -64,8 +64,8 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[30px]">p</span>izza
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+              Pizza
             </h2>
           </SwiperSlide>
           <SwiperSlide className="relative">
@@ -74,8 +74,8 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[30px]">d</span>essert
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+              Dessert
             </h2>
           </SwiperSlide>
           <SwiperSlide className="relative">
@@ -84,8 +84,8 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2">
-              <span className="text-[30px]">d</span>rink
+            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+              Drink
             </h2>
           </SwiperSlide>
         </Swiper>
