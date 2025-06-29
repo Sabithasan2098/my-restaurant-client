@@ -17,13 +17,13 @@ const CheckItOutMenuCard: React.FC<TCard> = ({ img, name, recipe, price }) => {
       <div className="flex-1">
         <div className="flex items-center justify-between w-full">
           <h2 className="flex-1 font-normal text-[20px] text">
-            {name}------------------
+            {name} ------------------
           </h2>
           <p className="text-right min-w-[40px] text-[20px] font-normal text-[#BB8506]">
             ${price}
           </p>
         </div>
-        <p className="font-normal text-[16px]">{recipe}</p>
+        <p className="font-normal text-[16px] mt-2">{recipe}</p>
       </div>
     </div>
   );
