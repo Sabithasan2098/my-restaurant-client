@@ -1,11 +1,11 @@
 "use client";
 import SectionHeading from "@/components/shered/sectionHeading/SectionHeading";
 import React from "react";
-import { useMenus } from "../../../../service/api/menu";
 import CheckItOutMenuCard from "@/components/shered/checkItOutMenuCard/CheckItOutMenuCard";
 import { TMenuData } from "../../../../types/Types";
 import CommonBTN from "@/components/shered/commonBTN/CommonBTN";
 import Link from "next/link";
+import { useMenus } from "@/service/api/menu";
 
 const CheckItOut = () => {
   const { data, isLoading } = useMenus();
@@ -17,7 +17,7 @@ const CheckItOut = () => {
         {isLoading ? (
           <h1>loading...</h1>
         ) : (
-          menuData.map((data: TMenuData) => (
+          menuData?.map((data: TMenuData) => (
             <div key={data?._id}>
               <CheckItOutMenuCard
                 img={data?.image}

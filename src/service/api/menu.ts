@@ -1,7 +1,10 @@
 // src/hooks/useMenus.ts
+import dotenv from "dotenv";
+dotenv.config();
 import { useQuery } from "@tanstack/react-query";
 
-const baseRoute = "https://my-restaurant-server-ten.vercel.app/api";
+const baseRoute = process.env.BASE_ROUTES;
+console.log(baseRoute);
 
 const fetchMenus = async () => {
   const res = await fetch(`${baseRoute}/menu/get-all-menu`);

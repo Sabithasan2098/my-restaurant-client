@@ -19,7 +19,6 @@ const Navbar = () => {
   }, []);
 
   const pathName = usePathname();
-  console.log(pathName);
   const nav = (
     <>
       <li>

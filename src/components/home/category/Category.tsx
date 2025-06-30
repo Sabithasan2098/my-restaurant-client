@@ -21,7 +21,7 @@ import Image from "next/image";
 
 const Category = () => {
   return (
-    // category text not responsive
+    // category text not responsive------------------------------------------------------------->
     <div className="mb-[25px] md:mb-[50px] lg:mb-[90px]">
       <SectionHeading
         first={"From 11:00am to 10:00pm"}

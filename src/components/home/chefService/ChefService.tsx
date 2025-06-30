@@ -5,7 +5,6 @@ import "./ChefService.css";
 
 const ChefService = () => {
   return (
-    // not responsive
     <div className="max-w-[1320px] mx-auto relative mb-[92px]">
       <Image
         src={image}
