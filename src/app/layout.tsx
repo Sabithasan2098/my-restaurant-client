@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shered/navbar/Navbar";
 import ReactQueryProvider from "@/providers/ReactQueryProvider";
+import Footer from "@/components/shered/footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function RootLayout({
         <div className="max-w-[1920px] mx-auto">
           <Navbar />
           <ReactQueryProvider>{children}</ReactQueryProvider>
+          <Footer />
         </div>
       </body>
     </html>
