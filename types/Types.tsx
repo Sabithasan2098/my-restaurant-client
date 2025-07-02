@@ -23,3 +23,10 @@ export type TReview = {
   rating: string;
   isDeleted: boolean;
 };
+
+export type TOurMenu = {
+  _id?: string;
+  image: unknown;
+  heading: string;
+  subHeading: string;
+};

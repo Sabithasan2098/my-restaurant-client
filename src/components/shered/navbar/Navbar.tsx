@@ -2,10 +2,10 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import logInImage from "../../../../public/assets/others/logIn.png";
-import logo from "../../../../public/assets/others/mainLogo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import cart from "../../../../public/assets/icon/cart2.png";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -96,7 +96,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar fixed z-10 bg-black/50 shadow-sm">
+    <div className="navbar fixed z-10 bg-black/50 shadow-sm height">
       <div className="navbar-start">
         <div className="dropdown">
           <div className="relative lg:hidden">
@@ -130,15 +130,14 @@ const Navbar = () => {
         </div>
         <Link
           href={"/"}
-          className="md:pt-5 md:pb-[18px] lg:pt-8 lg:pb-[23px] lg:pl-[55px]"
+          className="md:pt-5 md:pb-[18px] lg:pt-[27px] lg:pb-[28px] lg:pl-[55px]"
         >
-          <Image
-            src={logo}
-            alt="logo_image"
-            height={45}
-            width={150}
-            className="md:h-[60px] md:w-[250px] lg:h-[75px] lg:w-[278px] "
-          />
+          <h1 className="uppercase text-[32px] font-black  text text-white">
+            bistro boss
+          </h1>
+          <p className="text-[24px] font-semibold  sText text-white">
+            Restaurant
+          </p>
         </Link>
       </div>
       <div className="navbar-end flex items-center gap-[20px] pr-[20px] md:pr-[54px]">
@@ -146,7 +145,7 @@ const Navbar = () => {
           {nav}
         </ul>
         <div className="flex items-center gap-4 lg:gap-[7px]">
-          <p className="pt-2 block lg:hidden">
+          <p className=" block lg:hidden">
             <Link href={"/cart"}>
               <button className=" pl-[7px] relative ">
                 <Image

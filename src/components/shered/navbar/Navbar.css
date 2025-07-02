@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+.sText{
+    font-family: Cinzel;
+    letter-spacing: 9.12px;
+}
+.text{
+    font-family: Cinzel;
+}
+.height{
+    height: 130px !important;
+}
