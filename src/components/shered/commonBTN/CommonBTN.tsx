@@ -7,7 +7,7 @@ type TBtn = {
 const CommonBTN: React.FC<TBtn> = ({ btnText, className }) => {
   return (
     <button
-      className={`px-[30px] py-[20px] text-[20px] font-medium uppercase border-b-[3px] rounded-lg leading-normal cursor-pointer ${className}`}
+      className={`px-[30px] py-[16px] text-[20px] font-medium uppercase border-b-[3px] rounded-lg leading-normal cursor-pointer ${className}`}
     >
       {btnText}
     </button>

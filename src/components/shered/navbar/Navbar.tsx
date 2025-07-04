@@ -69,7 +69,15 @@ const Navbar = () => {
             href={"/ourShop"}
             onClick={closeDrawer}
             className={`${
-              pathName === "/ourShop" ? "text-[#EEFF25]" : "text-white"
+              [
+                "/ourShop",
+                "/ourShop/soups",
+                "/ourShop/desserts",
+                "/ourShop/drinks",
+                "/ourShop/pizzas",
+              ].includes(pathName)
+                ? "text-[#EEFF25]"
+                : "text-white"
             }`}
           >
             our shop

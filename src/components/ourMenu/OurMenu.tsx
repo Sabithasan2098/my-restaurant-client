@@ -7,6 +7,7 @@ import { TMenuData } from "../../../types/Types";
 import CommonBTN from "../shered/commonBTN/CommonBTN";
 import OurMenuFeatured from "../shered/ourMenu/OurMenuFeatured";
 import image from "../../../public/assets/home/chef-service.jpg";
+import Link from "next/link";
 
 const OurMenu = () => {
   const { data } = useMenus();
@@ -46,7 +47,10 @@ const OurMenu = () => {
             </div>
           ))}
         </div>
-        <CommonBTN btnText={"order you favorite food"} />
+        <Link href={"/ourShop"}>
+          {" "}
+          <CommonBTN btnText={"order you favorite food"} />
+        </Link>
       </div>
       {/* dessert */}
       <div className="mt-[45px] mb-[106px]">
@@ -72,7 +76,10 @@ const OurMenu = () => {
             </div>
           ))}
         </div>
-        <CommonBTN btnText={"order you favorite food"} />
+        <Link href={"/ourShop/desserts"}>
+          {" "}
+          <CommonBTN btnText={"order you favorite food"} />
+        </Link>
       </div>
       {/* pizza */}
       <div className="mt-[45px] mb-[106px]">
@@ -98,7 +105,10 @@ const OurMenu = () => {
             </div>
           ))}
         </div>
-        <CommonBTN btnText={"order you favorite food"} />
+        <Link href={"/ourShop/pizzas"}>
+          {" "}
+          <CommonBTN btnText={"order you favorite food"} />
+        </Link>
       </div>
       {/* salad */}
       <div className="mt-[45px] mb-[106px]">
@@ -124,7 +134,10 @@ const OurMenu = () => {
             </div>
           ))}
         </div>
-        <CommonBTN btnText={"order you favorite food"} />
+        <Link href={"/ourShop/salads"}>
+          {" "}
+          <CommonBTN btnText={"order you favorite food"} />
+        </Link>
       </div>
       {/* soup */}
       <div className="mt-[45px] mb-[106px]">
@@ -150,7 +163,10 @@ const OurMenu = () => {
             </div>
           ))}
         </div>
-        <CommonBTN btnText={"order you favorite food"} />
+        <Link href={"/ourShop/soups"}>
+          {" "}
+          <CommonBTN btnText={"order you favorite food"} />
+        </Link>
       </div>
     </div>
   );

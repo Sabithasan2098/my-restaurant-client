@@ -2,6 +2,7 @@ import React from "react";
 import { TCard } from "../../../../types/Types";
 import Image from "next/image";
 import CommonBTN from "../commonBTN/CommonBTN";
+import { CapitalizeEachWord } from "../capitalizeWord/CapitalizeWord";
 
 const truncateTextByWords = (text: string, wordLimit = 84) => {
   const words = text.split(" ");
@@ -24,8 +25,8 @@ const Card: React.FC<TCard> = ({ img, name, recipe }) => {
         <h3 className="text-[24px] font-semibold text-center leading-normal">
           {name}
         </h3>
-        <p className="text-[16px] font-normal leading-6 text-center px-10 pt-2">
-          {shortRecipe}
+        <p className="text-[16px] font-normal leading-6 text-center px-10 pt-[7px] first-letter:capitalize">
+          {CapitalizeEachWord(`${shortRecipe}`)}
         </p>
         <div className="text-center absolute left-1/2 -translate-x-1/2 bottom-8">
           <CommonBTN
