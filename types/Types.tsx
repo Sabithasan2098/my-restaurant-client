@@ -30,3 +30,9 @@ export type TOurMenu = {
   heading: string;
   subHeading: string;
 };
+
+export type TSectionBanner = {
+  img: unknown;
+  heading: string;
+  subHeading: string;
+};

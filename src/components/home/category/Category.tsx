@@ -21,7 +21,6 @@ import Image from "next/image";
 
 const Category = () => {
   return (
-    // category text not responsive------------------------------------------------------------->
     <div className="mb-[25px] md:mb-[50px] lg:mb-[90px]">
       <SectionHeading
         first={"From 11:00am to 10:00pm"}
@@ -44,7 +43,7 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+            <h2 className="absolute category-text bottom-[3px] md:bottom-[17px] lg:bottom-[25px] left-1/2 -translate-x-1/2 text-[10px] md:text-[20px] lg:text-[32px] text">
               Salads
             </h2>
           </SwiperSlide>
@@ -54,7 +53,7 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+            <h2 className="absolute category-text bottom-[3px] md:bottom-[17px] lg:bottom-[25px] left-1/2 -translate-x-1/2 text-[10px] md:text-[20px] lg:text-[32px] text">
               Soup
             </h2>
           </SwiperSlide>
@@ -64,7 +63,7 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+            <h2 className="absolute category-text bottom-[3px] md:bottom-[17px] lg:bottom-[25px] left-1/2 -translate-x-1/2 text-[10px] md:text-[20px] lg:text-[32px] text">
               Pizza
             </h2>
           </SwiperSlide>
@@ -74,7 +73,7 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+            <h2 className="absolute category-text bottom-[3px] md:bottom-[17px] lg:bottom-[25px] left-1/2 -translate-x-1/2 text-[10px] md:text-[20px] lg:text-[32px] text">
               Dessert
             </h2>
           </SwiperSlide>
@@ -84,7 +83,7 @@ const Category = () => {
               alt="category_image"
               className="lg:h-[450px] lg:w-[312]"
             />
-            <h2 className="absolute category-text bottom-[25px] left-1/2 -translate-x-1/2 text-[32px] text">
+            <h2 className="absolute category-text bottom-[3px] md:bottom-[17px] lg:bottom-[25px] left-1/2 -translate-x-1/2 text-[10px] md:text-[20px] lg:text-[32px] text">
               Drink
             </h2>
           </SwiperSlide>
