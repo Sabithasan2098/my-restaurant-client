@@ -13,7 +13,7 @@ const CheckItOut = () => {
   return (
     <div className="">
       <SectionHeading first="Check it out" second="FROM OUR MENU" />
-      <div className="mt-[48px] max-w-[1320px] mx-auto grid grid-cols-2 gap-[24px]">
+      <div className="mt-[15px] md:mt-[30px] lg:mt-[48px] max-w-[1320px] mx-auto grid md:grid-cols-2 gap-[24px] px-2 md:px-3 lg:px-0">
         {isLoading ? (
           <h1>loading...</h1>
         ) : (
@@ -29,7 +29,7 @@ const CheckItOut = () => {
           ))
         )}
       </div>
-      <div className="text-center mt-[48px]">
+      <div className="text-center md:mt-[20px] lg:mt-[48px]">
         <Link href={"/menu"}>
           <CommonBTN btnText="view full menu" />
         </Link>

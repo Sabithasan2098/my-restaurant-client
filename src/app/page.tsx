@@ -14,8 +14,8 @@ export default function Home() {
     <div>
       <Banner />
       <Category />
-      {/* not responsive */}
       <ChefService />
+      {/* not responsive */}
       <CheckItOut />
       <Contact />
       <ChefRecommends />
