@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      {/* not responsive */}
       <Category />
+      {/* not responsive */}
       <ChefService />
       <CheckItOut />
       <Contact />
