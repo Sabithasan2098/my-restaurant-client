@@ -14,7 +14,7 @@ const ChefService = () => {
         className="h-[210px] md:h-[320px] lg:h-[572px] object-cover"
       />
       <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-white py-[16px] md:py-[30px] lg:py-[96px] px-[20px] md:px-[55px] lg:px-[167px] w-[300px] md:w-[650px] lg:w-[1096px]">
-        <h1 className="text-[20px] md:text-[30px] lg:text-[45px] font-normal text text-center">
+        <h1 className="text-[20px] md:text-[30px] lg:text-[45px] font-normal custom-text text-center">
           Bistro Boss
         </h1>
         <p className="font-normal text-center text-[10px] md:text-[14px] lg:text-[16px]">

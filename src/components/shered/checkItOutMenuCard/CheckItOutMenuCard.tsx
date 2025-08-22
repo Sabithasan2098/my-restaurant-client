@@ -16,7 +16,7 @@ const CheckItOutMenuCard: React.FC<TCard> = ({ img, name, recipe, price }) => {
       />
       <div className="flex-1">
         <div className="flex items-center justify-between w-full">
-          <h2 className="flex-1 font-normal text-[13px] md:text-[16px] lg:text-[20px]  text">
+          <h2 className="flex-1 custom-text font-normal text-[13px] md:text-[16px] lg:text-[20px]">
             {name}
             <span className="hidden lg:inline pl-1">------------------</span>
             <span className="hidden md:inline lg:hidden pl-1">------</span>

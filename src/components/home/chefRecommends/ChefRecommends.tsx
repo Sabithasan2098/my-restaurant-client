@@ -9,9 +9,9 @@ const ChefRecommends = () => {
   const { data, isLoading } = useMenus();
   const menuData = data?.data.slice(0, 3);
   return (
-    <div className="mt-[130px] max-w-[1320px] mx-auto">
+    <div className="mt-[30px] md:mt-[50px] lg:mt-[130px] max-w-[1320px] mx-auto px-2 md:px-3 lg:px-0">
       <SectionHeading first="Should Try" second="chef recommends" />
-      <div className="mt-[48px] grid grid-cols-3 gap-6">
+      <div className="mt-[20px] md:mt-[34px] lg:mt-[48px] grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 lg:gap-6">
         {menuData?.map((data: TMenuData) =>
           isLoading ? (
             <span

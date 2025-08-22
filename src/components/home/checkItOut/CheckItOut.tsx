@@ -13,7 +13,7 @@ const CheckItOut = () => {
   return (
     <div className="">
       <SectionHeading first="Check it out" second="FROM OUR MENU" />
-      <div className="mt-[15px] md:mt-[30px] lg:mt-[48px] max-w-[1320px] mx-auto grid md:grid-cols-2 gap-[24px] px-2 md:px-3 lg:px-0">
+      <div className="mt-[15px] md:mt-[30px] lg:mt-[48px] max-w-[1320px] mx-auto grid md:grid-cols-2 gap-[8px] md:gap-[15px] lg:gap-[24px] px-2 md:px-3 lg:px-0">
         {isLoading ? (
           <h1>loading...</h1>
         ) : (
