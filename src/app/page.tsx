@@ -17,9 +17,9 @@ export default function Home() {
       <ChefService />
       <CheckItOut />
       <Contact />
-      {/* not responsive */}
       <ChefRecommends />
       <Featured />
+      {/* not responsive */}
       <Testimonial />
     </div>
   );
