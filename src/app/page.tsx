@@ -16,8 +16,8 @@ export default function Home() {
       <Category />
       <ChefService />
       <CheckItOut />
-      {/* not responsive */}
       <Contact />
+      {/* not responsive */}
       <ChefRecommends />
       <Featured />
       <Testimonial />
