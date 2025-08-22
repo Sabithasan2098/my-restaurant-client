@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.font{
+.text{
+font-family: Raleway;
 color: #FFF;
 text-align: center;
- font-family: Raleway;
+}
+.font{
 font-size: 50px;
 font-style: normal;
 font-weight: 600;
