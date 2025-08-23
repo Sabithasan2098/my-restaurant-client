@@ -43,7 +43,8 @@ const Star: React.FC<{ filled: boolean; onClick: () => void }> = ({
   return (
     <span
       onClick={onClick}
-      style={{ fontSize: "50px", color: filled ? "#CD9003" : "#9e9e9e" }}
+      style={{ color: filled ? "#CD9003" : "#9e9e9e" }}
+      className="text-[20px] md:text-[35px] lg:text-[50px]"
     >
       ★
     </span>
