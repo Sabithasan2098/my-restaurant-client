@@ -137,15 +137,17 @@ const Navbar = () => {
           </div>
         </div>
         <Link
-          href={"/"}
-          className="md:pt-5 md:pb-[18px] lg:pt-[27px] lg:pb-[28px] lg:pl-[55px]"
+          href="/"
+          className="md:pt-5 md:pb-[18px] lg:pt-[27px] lg:pb-[28px] lg:pl-[55px] inline-block"
         >
-          <h1 className="uppercase text-[32px] font-black  text text-white">
-            bistro boss
-          </h1>
-          <p className="text-[24px] font-semibold  sText text-white">
-            Restaurant
-          </p>
+          <div className="leading-tight">
+            <h1 className="uppercase text-[17px] md:text-[24px] lg:text-[32px] font-black custom-text text-white">
+              bistro boss
+            </h1>
+            <p className="text-[13px] md:text-[18px] lg:text-[24px] font-semibold sText text-white">
+              Restaurant
+            </p>
+          </div>
         </Link>
       </div>
       <div className="navbar-end flex items-center gap-[20px] pr-[20px] md:pr-[54px]">
@@ -161,9 +163,9 @@ const Navbar = () => {
                   alt="cart_image"
                   height={31}
                   width={34}
-                  className="md:h-[49px] md:w-[52px]"
+                  className="h-[30px] w-[33px] md:h-[32px] md:w-[35px] lg:h-[49px] lg:w-[52px]"
                 />{" "}
-                <div className="absolute bg-[#fd000a] p-[1px] rounded-full top-4 left-7 h-4 w-4 text-xs text-white">
+                <div className="absolute bg-[#fd000a] p-[1px] rounded-full top-4 md:top-5 lg:top-4 left-7 h-4 w-4 text-xs text-white">
                   1
                 </div>
               </button>

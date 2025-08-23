@@ -3,9 +3,31 @@
     font-family: Cinzel;
     letter-spacing: 9.12px;
 }
-.text{
+.custom-text{
     font-family: Cinzel;
+}
+@media (max-width:1080px) {
+    .sText{
+        font-family: Cinzel;
+        letter-spacing: 7px;
+    }
+}
+@media (max-width:480px) {
+    .sText{
+    font-family: Cinzel;
+    letter-spacing: 5px;
+}
 }
 .height{
     height: 130px !important;
+}
+@media (max-width:1080) {
+    .height{
+    height: 110px !important;
+}
+}
+@media (max-width:480) {
+    .height{
+    height: 50px !important;
+}
 }
