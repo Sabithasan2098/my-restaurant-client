@@ -13,11 +13,11 @@ const page = () => {
         heading={"contact us"}
         subHeading={"Would you like to try our dish?"}
       />
-      <div className="mt-[130px]">
+      <div className="mt-[30px] md:mt-[50px] lg:mt-[130px]">
         <SectionHeading first="Visit Us" second="our location" />
       </div>
       <ContactCard />
-      <div className="mt-[130px]">
+      <div className="mt-[30px] md:mt-[50px] lg:mt-[130px]">
         <SectionHeading first="Send Us Message" second="contact form" />
       </div>
       <ContactForm />
