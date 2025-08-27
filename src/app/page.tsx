@@ -8,8 +8,6 @@ import Featured from "@/components/home/featured/Featured";
 import Testimonial from "@/components/home/testimonial/Testimonial";
 
 export default function Home() {
-  const route = process.env.BASE_ROUTES;
-  console.log(route);
   return (
     <div>
       <Banner />
@@ -19,7 +17,6 @@ export default function Home() {
       <Contact />
       <ChefRecommends />
       <Featured />
-      {/* not responsive */}
       <Testimonial />
     </div>
   );

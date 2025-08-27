@@ -12,9 +12,7 @@ type TFormData = {
 };
 
 const ContactForm = () => {
-  const baseRoute = "http://localhost:4000/api";
-
-  console.log(baseRoute);
+  const baseRoute = process.env.BASE_ROUTES;
   const [formData, setFormData] = useState<TFormData>({
     name: "",
     email: "",
