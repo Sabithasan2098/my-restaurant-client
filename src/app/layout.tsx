@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/shered/navbar/Navbar";
 import ReactQueryProvider from "@/providers/ReactQueryProvider";
 import Footer from "@/components/shered/footer/Footer";
+import { ToastContainer } from "react-toastify";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +33,9 @@ export default function RootLayout({
       >
         <div className="max-w-[1920px] mx-auto">
           <Navbar />
-          <ReactQueryProvider>{children}</ReactQueryProvider>
+          <ReactQueryProvider>
+            {children} <ToastContainer />{" "}
+          </ReactQueryProvider>
           <Footer />
         </div>
       </body>
