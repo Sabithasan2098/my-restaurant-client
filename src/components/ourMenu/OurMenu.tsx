@@ -30,11 +30,11 @@ const OurMenu = () => {
   return (
     <div>
       {/* todays-offer */}
-      <div className="mt-[130px] mb-12">
+      <div className="mt-[30px] md:mt-[50px] lg:mt-[130px] mb-[20px] md:mb-[30px] lg:mb-12">
         <SectionHeading first={"Don't miss"} second={"today's offer"} />
       </div>
-      <div className="max-w-[1320px] mx-auto flex flex-col items-center">
-        <div className="grid grid-cols-2 gap-6 mb-[45px]">
+      <div className="max-w-[1320px] mx-auto flex flex-col items-center px-1 md:px-2 lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[8px] md:gap-[15px] lg:gap-6 mb-[10px] md:mb-[20px] lg:mb-[45px]">
           {offered?.map((data: TMenuData) => (
             <div key={data._id}>
               {" "}
@@ -53,7 +53,7 @@ const OurMenu = () => {
         </Link>
       </div>
       {/* dessert */}
-      <div className="mt-[45px] mb-[106px]">
+      <div className="mt-[30px] md:mt-[50px] lg:mt-[130px] mb-[20px] md:mb-[50px] lg:mb-[50px]">
         <OurMenuFeatured
           image={image}
           heading={"desserts"}
@@ -62,8 +62,8 @@ const OurMenu = () => {
           }
         />
       </div>
-      <div className="max-w-[1320px] mx-auto flex flex-col items-center">
-        <div className="grid grid-cols-2 gap-6 mb-[45px]">
+      <div className="max-w-[1320px] mx-auto flex flex-col items-center px-1 md:px-2 lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[8px] md:gap-[15px] lg:gap-6 mb-[10px] md:mb-[20px] lg:mb-[45px]">
           {dessert?.map((data: TMenuData) => (
             <div key={data._id}>
               {" "}
@@ -82,7 +82,7 @@ const OurMenu = () => {
         </Link>
       </div>
       {/* pizza */}
-      <div className="mt-[45px] mb-[106px]">
+      <div className="mt-[30px] md:mt-[50px] lg:mt-[130px] mb-[20px] md:mb-[50px] lg:mb-[50px]">
         <OurMenuFeatured
           image={image}
           heading={"pizza"}
@@ -91,8 +91,8 @@ const OurMenu = () => {
           }
         />
       </div>
-      <div className="max-w-[1320px] mx-auto flex flex-col items-center">
-        <div className="grid grid-cols-2 gap-6 mb-[45px]">
+      <div className="max-w-[1320px] mx-auto flex flex-col items-center px-1 md:px-2 lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[8px] md:gap-[15px] lg:gap-6 mb-[10px] md:mb-[20px] lg:mb-[45px]">
           {pizza?.map((data: TMenuData) => (
             <div key={data._id}>
               {" "}
@@ -111,7 +111,7 @@ const OurMenu = () => {
         </Link>
       </div>
       {/* salad */}
-      <div className="mt-[45px] mb-[106px]">
+      <div className="mt-[30px] md:mt-[50px] lg:mt-[130px] mb-[20px] md:mb-[50px] lg:mb-[50px]">
         <OurMenuFeatured
           image={image}
           heading={"salads"}
@@ -120,8 +120,8 @@ const OurMenu = () => {
           }
         />
       </div>
-      <div className="max-w-[1320px] mx-auto flex flex-col items-center">
-        <div className="grid grid-cols-2 gap-6 mb-[45px]">
+      <div className="max-w-[1320px] mx-auto flex flex-col items-center px-1 md:px-2 lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[8px] md:gap-[15px] lg:gap-6 mb-[10px] md:mb-[20px] lg:mb-[45px]">
           {salad?.map((data: TMenuData) => (
             <div key={data._id}>
               {" "}
@@ -140,7 +140,7 @@ const OurMenu = () => {
         </Link>
       </div>
       {/* soup */}
-      <div className="mt-[45px] mb-[106px]">
+      <div className="mt-[30px] md:mt-[50px] lg:mt-[130px] mb-[20px] md:mb-[50px] lg:mb-[50px]">
         <OurMenuFeatured
           image={image}
           heading={"soups"}
@@ -149,8 +149,8 @@ const OurMenu = () => {
           }
         />
       </div>
-      <div className="max-w-[1320px] mx-auto flex flex-col items-center">
-        <div className="grid grid-cols-2 gap-6 mb-[45px]">
+      <div className="max-w-[1320px] mx-auto flex flex-col items-center px-1 md:px-2 lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[8px] md:gap-[15px] lg:gap-6 mb-[10px] md:mb-[20px] lg:mb-[45px]">
           {soup?.map((data: TMenuData) => (
             <div key={data._id}>
               {" "}

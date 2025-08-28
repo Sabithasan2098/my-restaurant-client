@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import { useQuery } from "@tanstack/react-query";
 
-const baseRoute = process.env.BASE_ROUTES;
+const baseRoute = process.env.NEXT_PUBLIC_BASE_ROUTES;
 console.log(baseRoute);
 
 const fetchMenus = async () => {

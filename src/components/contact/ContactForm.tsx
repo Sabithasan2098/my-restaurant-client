@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
+import dotenv from "dotenv";
+dotenv.config();
 
 type TFormData = {
   name: string;
@@ -12,7 +14,7 @@ type TFormData = {
 };
 
 const ContactForm = () => {
-  const baseRoute = process.env.BASE_ROUTES;
+  const baseRoute = process.env.NEXT_PUBLIC_BASE_ROUTES;
   const [formData, setFormData] = useState<TFormData>({
     name: "",
     email: "",
@@ -137,7 +139,7 @@ const ContactForm = () => {
       </div>
       <div className="flex justify-center mx-auto pb-5 md:pb-8 lg:pb-14">
         <button
-          className="bg-gradient-to-r from-[#855e24]  to-[#b67f2f] px-4 md:px-6 lg:px-10 py-[5px] md:py-[12px] lg:py-[15px] text-white text-[11px] md:text-[15px] lg:text-[20px] font-light md:font-medium lg:font-semibold flex gap-[2px] md:gap-[4px] lg:gap-[7px] items-center "
+          className="bg-gradient-to-r from-[#855e24]  to-[#b67f2f] px-4 md:px-6 lg:px-10 py-[5px] md:py-[12px] lg:py-[15px] text-white text-[11px] md:text-[15px] lg:text-[20px] font-light md:font-medium lg:font-semibold flex gap-[2px] md:gap-[4px] lg:gap-[7px] items-center cursor-pointer"
           type="submit"
         >
           Send Message{" "}
