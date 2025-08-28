@@ -13,7 +13,7 @@ const truncateTextByWords = (text: string, wordLimit = 84) => {
 const Card: React.FC<TCard> = ({ img, name, recipe }) => {
   const shortRecipe = truncateTextByWords(recipe, 10);
   return (
-    <div className="w-[175px] md:w-[280px] lg:w-[424px] h-full">
+    <div className="w-[180px] md:w-[280px] lg:w-[424px] h-full">
       <Image
         src={img}
         alt="food_image"

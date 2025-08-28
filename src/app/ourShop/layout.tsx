@@ -8,7 +8,9 @@ const InnerLayout = ({ children }: { children: React.ReactNode }) => {
     <main>
       <ShopBanner />
       <ShopNavbar />
-      <div className="mt-[48px] max-w-[1320px] mx-auto">{children}</div>
+      <div className="mt-[20px] md:mt-[30px] lg:mt-[48px] max-w-fit lg:max-w-[1320px] mx-auto px-1 md:px-2 lg:px-0 ">
+        {children}
+      </div>
     </main>
   );
 };
