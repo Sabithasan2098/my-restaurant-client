@@ -109,7 +109,7 @@ const Banner = () => {
           {/* Navigation Arrows */}
           {/* Left Button */}
           <button
-            className="absolute top-1/2 left-0 transform -translate-y-1/2 z-20  hover:bg-black/40 text-[#EEFF25] p-1 h-full 
+            className="absolute top-1/2 left-0 transform -translate-y-1/2 z-20  hover:bg-black/40 text-[#EEFF25] p-1 h-1/4 md:h-full 
                opacity-0 group-hover:opacity-100 transition-all duration-300"
             onClick={prevSlide}
             aria-label="Previous slide"
@@ -119,7 +119,7 @@ const Banner = () => {
 
           {/* Right Button */}
           <button
-            className="absolute top-1/2 right-0 transform -translate-y-1/2 z-20  hover:bg-black/40 text-[#EEFF25] p-1 h-full 
+            className="absolute top-1/2 right-0 transform -translate-y-1/2 z-20  hover:bg-black/40 text-[#EEFF25] p-1 h-1/4 md:h-full 
                opacity-0 group-hover:opacity-100 transition-all duration-300"
             onClick={nextSlide}
             aria-label="Next slide"
